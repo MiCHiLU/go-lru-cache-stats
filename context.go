@@ -1,3 +1,5 @@
+// +build !appengine
+
 /*
 Copyright 2015 ENDOH takanao.
 <https://github.com/MiCHiLU/go-lru-cache-stats>

@@ -1,3 +1,5 @@
+// +build appengine
+
 /*
 Copyright 2015 ENDOH takanao.
 <https://github.com/MiCHiLU/go-lru-cache-stats>
@@ -20,7 +22,9 @@ limitations under the License.
 
 package lru
 
+import "appengine"
+
 // Context is an opaque value passed through calls to the
 // ProtoGetter. It may be nil if your ProtoGetter implementation does
 // not require a context.
-type Context interface{}
+type Context appengine.Context
