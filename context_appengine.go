@@ -25,6 +25,5 @@ package lru
 import "appengine"
 
 // Context is an opaque value passed through calls to the
-// ProtoGetter. It may be nil if your ProtoGetter implementation does
-// not require a context.
+// ProtoGetter.
 type Context appengine.Context
